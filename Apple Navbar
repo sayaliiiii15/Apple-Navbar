@@ -1,0 +1,74 @@
+#html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Navbar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="apple-navbar">
+    <ul>
+      <li><i class="fab fa-apple"></i></li>
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Mac</a></li>
+      <li><a href="#">iPad</a></li>
+      <li><a href="#">iPhone</a></li>
+      <li><a href="#">Watch</a></li>
+      <li><a href="#">AirPods</a></li>
+      <li><a href="#">TV & Home</a></li>
+      <li><a href="#">Entertainment</a></li>
+      <li><a href="#">Accessories</a></li>
+      <li><a href="#">Support</a></li>
+      <li><i class="fas fa-search"></i></li>
+      <li><i class="fas fa-shopping-bag"></i></li>
+    </ul>
+  </nav>
+</body>
+</html>
+
+ #css
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f5f7;
+}
+
+.apple-navbar {
+  background-color: #1d1d1f;
+  padding: 10px 0;
+}
+
+.apple-navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.apple-navbar li {
+  margin: 0 15px;
+}
+
+.apple-navbar a,
+.apple-navbar i {
+  color: #f5f5f7;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.apple-navbar a:hover,
+.apple-navbar i:hover {
+  color: #aaa;
+}
+
+.apple-navbar i {
+  font-size: 18px;
+}
